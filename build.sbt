@@ -1,0 +1,2 @@
+wartremoverErrors ++= Warts.unsafe
+
