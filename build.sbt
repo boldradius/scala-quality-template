@@ -6,5 +6,6 @@ enablePlugins(GitVersioning)
 
 enablePlugins(GitBranchPrompt)
 
+sbtVersion := "0.13.7"
 
 
