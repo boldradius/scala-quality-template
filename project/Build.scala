@@ -23,7 +23,7 @@ object QualityBuild extends Build {
 		settings = commonSettings ++ Seq(
 			libraryDependencies ++= Seq(
 				"org.scalatest" % "scalatest_2.11" % "2.2.4" % "test",
-        "org.scalactic" % "scalactic_2.11" % "2.2.4" % "test"
+        "org.scalactic" % "scalactic_2.11" % "2.2.4"
 			)
 		)
 	)
